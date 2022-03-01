@@ -1,0 +1,6 @@
+.settings/
+stm32_devboard-backups/
+.cproject
+.mxproject
+.project
+fp-info-cache
