@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "eec")(type "KiCad")(uri "C:/Users/JAYESH/Downloads/IC_ON Semi_NCP5501DT33RKG/eec.pretty")(options "")(descr ""))
+  (lib (name "esd")(type "KiCad")(uri "C:/Users/JAYESH/Downloads/IC_Texas Instruments_TPD1E05U06DPYR/eec.pretty")(options "")(descr ""))
+  (lib (name "esd2")(type "KiCad")(uri "C:/Users/JAYESH/Downloads/Diode_Semtech_RCLAMP3521P.TNT/eec.pretty")(options "")(descr ""))
 )

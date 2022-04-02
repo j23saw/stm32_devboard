@@ -2897,7 +2897,7 @@
   (symbol (lib_id "power:+3.3V") (at 173.99 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 01160f7c-6c3b-4f8a-a6b1-d2edd70e4083)
-    (property "Reference" "#PWR?" (id 0) (at 173.99 85.09 0)
+    (property "Reference" "#PWR0117" (id 0) (at 173.99 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 177.8 80.01 0))
@@ -4026,12 +4026,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 173.99 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid b6740d20-5f29-48ad-b5ce-1521e5e5040d)
-    (property "Reference" "#PWR?" (id 0) (at 173.99 97.79 0)
+    (property "Reference" "#PWR0118" (id 0) (at 173.99 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 173.99 96.52 0))
+    (property "Value" "GND" (id 1) (at 176.53 91.44 0))
     (property "Footprint" "" (id 2) (at 173.99 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4443,10 +4443,10 @@
       (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
     (path "/01160f7c-6c3b-4f8a-a6b1-d2edd70e4083"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0117") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/b6740d20-5f29-48ad-b5ce-1521e5e5040d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
     (path "/7fcf6ddc-297f-4c92-867e-65041a6dad67"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
